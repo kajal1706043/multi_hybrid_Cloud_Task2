@@ -2,7 +2,7 @@ provider "aws" {
 	profile = "Kajal"
 	region = "ap-south-1"
 }
-/*
+
 #Creating vpc:
 
 resource "aws_vpc" "lwvpc" {
@@ -165,7 +165,7 @@ resource "null_resource" "EC2_mount" {
 	]
 	}
 }
-*/
+
 /*Create an S3 bucket and grant public access to it */
 resource "aws_s3_bucket" "bb" {
   bucket = "tsk2bucket"
